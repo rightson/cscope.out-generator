@@ -1,9 +1,9 @@
 # cscope.out-generator
 
-*cscope.out-generator* is a script for generating cscope.out file.
+*cscope.out-generator* is a simple but powerful tool for generating cscope.out file. 
 
-It supports multiple directories so that source code in different hierarchy of folders can be managed.
-It can also convert source path into either relative and absolute path, it is useful when you want to include your local source code as well as system/3rd-party libraries or Linux kernel source, for example.
+It supports multiple directories scanning - source code in different location/hierarchy can be included.
+It can also convert source path to either relative (default) or absolute path. This feature is useful when including local source code as well as system/3rd-party libraries (or Linux kernel source, for example) is required.
 
 Example usage:
 
